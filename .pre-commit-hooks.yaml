@@ -1,4 +1,4 @@
-- id: CloudFormation Guard 2.0
+- id: cfn-guard
   name: cfn-guard
   description: Wrapper around CloudFormation allowing pre-commit hooks
   entry: cfn-guard
