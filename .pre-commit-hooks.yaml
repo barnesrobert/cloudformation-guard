@@ -1,0 +1,8 @@
+- id: CloudFormation Guard 2.0
+  name: cfn-guard
+  description: Wrapper around CloudFormation allowing pre-commit hooks
+  entry: cfn-guard
+  language: Rust
+  files: \.(json|yaml|yml|template)$
+  args: [--fail-on-warnings, --input-path]
+  require_serial: false
